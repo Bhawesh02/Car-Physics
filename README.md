@@ -137,6 +137,11 @@ Key Features:
 - Dreamteck Splines package for spline handling.
 
 ---
+## Gameplay
+
+[![](https://github.com/Bhawesh02/Car-Physics/blob/main/Car_Physics/Assets/Extra/Car%20Physics%20Gameplay.gif)](https://youtube.com/shorts/r4XY97JedFg)
+
+---
 
 ## Contributing
 This tool represents my individual development efforts but thrives on community engagement. Feedback, suggestions, and collaborative contributions are highly encouraged. If you're passionate about mesh deformation techniques, Unity development workflows, or procedural generation, I’d love to connect!
