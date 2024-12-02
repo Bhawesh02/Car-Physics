@@ -122,20 +122,15 @@ Key Features:
 ---
 
 ## Requirements
-- Unity 2021.3 or later.
 - Dreamteck Splines package for spline handling.
 
 ---
 
 ## Contributing
-Contributions are welcome! Please submit pull requests for bug fixes, feature additions, or performance improvements.
+This tool represents my individual development efforts but thrives on community engagement. Feedback, suggestions, and collaborative contributions are highly encouraged. If you're passionate about mesh deformation techniques, Unity development workflows, or procedural generation, I’d love to connect!
 
 ---
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Contact
 
----
-
-## Acknowledgments
-Special thanks to Unity's physics system and the Dreamteck Splines package for facilitating AI path-following mechanics.
+You can connect with me on LinkedIn: [Bhawesh Agarwal](https://www.linkedin.com/in/bhawesh-agarwal-70b98b113). Feel free to reach out if you're interested in discussing the game's mechanics, and development process, or if you simply want to talk about game design and development.
