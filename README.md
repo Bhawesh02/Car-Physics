@@ -1,6 +1,6 @@
 # Car Physics
 
-This repository contains a Unity-based car simulation system, including a car controller and state management for both player and bot driving modes. The system is designed with modularity and flexibility, utilizing Unity's physics and scripting capabilities.
+This repository contains a Unity-based car simulation system, including a car controller and state management for both player and bot driving modes. The system is designed with modularity and flexibility, so it can be expanded based on any car project requirements.
 
 ---
 
@@ -22,6 +22,18 @@ The main `CarController` class is responsible for:
 - Applying physics for movement, acceleration, and braking.
 - Interacting with the car's `Tyre` components for realistic suspension and steering.
 - Supporting both player and bot driving modes.
+- **Allows switching car data at runtime**, enabling different car behaviors as per requirements.
+
+### 4. **Car Data**
+The `CarData` class holds the configuration for different car behaviors, allowing for easy switching of car characteristics at runtime. You can define the car's type, suspension, engine performance, and other parameters to customize how the car behaves in the simulation. This feature allows dynamic adjustments of car behavior based on project needs, such as switching between different types of vehicles or modifying a car's characteristics during gameplay.
+
+- **Car Type**: Defines the type of the car (e.g., `SPORTS_CAR`, `SUV`, `TRUCK`).
+- **Drive Configuration**: Defines whether the car uses front or rear-wheel drive.
+- **Suspension Settings**: Configures suspension force, damping, and rest length.
+- **Engine Performance**: Sets maximum torque, speed, and acceleration rate.
+- **Braking**: Defines braking force for deceleration.
+- **Steering**: Specifies steering angle and speed.
+- **Weight and Physics**: Configures mass and center of mass.
 
 ---
 
@@ -35,7 +47,7 @@ Manages car physics, states, and behaviors. Key components:
   - `m_splineComputer`: Spline for bot navigation.
 - **Methods**:
   - `InitCarStates()`: Initializes and registers car states in the state machine.
-  - `SwitchCarData()`: Switches car configuration based on `CarDataType`.
+  - `SwitchCarData()`: Switches car configuration at runtime based on `CarDataType`, allowing dynamic behavior changes.
   - `AccelerateCar()`: Applies torque to wheels.
   - `ApplyBrakes()`: Applies braking forces to wheels.
 
